@@ -93,8 +93,8 @@ f1 = open("test2.txt", "r")
 # combines the two text files
 for nums in f.readlines():
     linked_list.append(nums)
-for i in f1.readlines():
-    linked_list.append(i)
+for nums in f1.readlines():
+    linked_list.append(nums)
 
 linked_list.print_list()
 linked_list.bubble_sort()
